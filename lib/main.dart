@@ -48,5 +48,6 @@ class _BallPageState extends State<BallPage> {
     );
   }
 
+  //creates random int for randomizing 8-ball images
   randomNum() => setState(() => imageNum = Random().nextInt(5) + 1);
 }
